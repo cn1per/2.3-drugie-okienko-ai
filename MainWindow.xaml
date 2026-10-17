@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:drugie_okno"
         mc:Ignorable="d"
         Title="Moja aplikacja z agentem" Height="450" Width="900"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Background="LightGreen">
     <Grid>
         <TextBlock Text="Witaj w mojej aplikacji!" FontSize="30" />
     </Grid>
