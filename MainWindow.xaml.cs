@@ -16,6 +16,8 @@ namespace drugie_okno;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private int clickCount;
+
     public MainWindow()
     {
         InitializeComponent();
@@ -23,6 +25,8 @@ public partial class MainWindow : Window
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
+        clickCount++;
+        ClickCountText.Text = $"Liczba kliknięć: {clickCount}";
         MessageBox.Show("Przycisk został kliknięty");
     }
 }
