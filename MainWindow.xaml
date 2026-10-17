@@ -8,6 +8,6 @@
         Title="Moja aplikacja z agentem" Height="450" Width="900"
         WindowStartupLocation="CenterScreen">
     <Grid>
-
+        <TextBlock Text="Witaj w mojej aplikacji!" />
     </Grid>
 </Window>
