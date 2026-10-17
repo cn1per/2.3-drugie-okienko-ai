@@ -29,4 +29,10 @@ public partial class MainWindow : Window
         ClickCountText.Text = $"Liczba kliknięć: {clickCount}";
         MessageBox.Show("Przycisk został kliknięty");
     }
+
+    private void ResetButton_Click(object sender, RoutedEventArgs e)
+    {
+        clickCount = 0;
+        ClickCountText.Text = $"Liczba kliknięć: {clickCount}";
+    }
 }
