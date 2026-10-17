@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:drugie_okno"
         mc:Ignorable="d"
-        Title="Moja aplikacja z agentem" Height="450" Width="900">
+        Title="Moja aplikacja z agentem" Height="450" Width="900"
+        WindowStartupLocation="CenterScreen">
     <Grid>
 
     </Grid>
