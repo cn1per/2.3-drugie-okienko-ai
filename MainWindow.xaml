@@ -10,6 +10,6 @@
         Background="LightGreen">
     <Grid>
         <TextBlock Text="Witaj w mojej aplikacji!" FontSize="30" />
-        <Button Content="Kliknij mnie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" />
+        <Button Content="Kliknij mnie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Background="DarkGreen" Foreground="White" />
     </Grid>
 </Window>
