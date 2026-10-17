@@ -27,7 +27,7 @@ public partial class MainWindow : Window
     {
         clickCount++;
         ClickCountText.Text = $"Liczba kliknięć: {clickCount}";
-        MessageBox.Show("Przycisk został kliknięty");
+        MessageBox.Show($"Witaj, {NameTextBox.Text.Trim()}!");
     }
 
     private void ResetButton_Click(object sender, RoutedEventArgs e)
